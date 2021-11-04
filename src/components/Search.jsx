@@ -12,7 +12,9 @@ export function Search(props) {
                 value={query}
                 onChange={handleChange}
             />
-            <button type="submit">Submit</button>
+            <button type="submit" aria-label="submit">
+                Submit
+            </button>
         </form>
     );
 }

@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 5,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Hackaday"
+            },
+            "author": "Al Williams",
+            "title": "RISC-V in… Typescript?",
+            "description": "We are accustomed to seeing RISC-V implementations in Verilog or VHDL, but [Low Level JavaScript] has one in TypeScript. Before you dismiss it as a mere emulator, know that the project relies on ga…",
+            "url": "https://hackaday.com/2021/10/14/risc-v-in-typescript/",
+            "urlToImage": "https://hackaday.com/wp-content/uploads/2021/10/risc.png",
+            "publishedAt": "2021-10-15T02:00:15Z",
+            "content": "We are accustomed to seeing RISC-V implementations in Verilog or VHDL, but [Low Level JavaScript] has one in TypeScript. Before you dismiss it as a mere emulator, know that the project relies on gate… [+961 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hackaday"
+            },
+            "author": "Ryan Flowers",
+            "title": "Supply Chain Attack: NPM Library Used By Facebook And Others Was Compromised",
+            "description": "Here at Hackaday we love the good kinds of hacks, but now and then we need to bring up a less good kind. Today it was learned that the NPM package ua-parser-js was compromised, and any software usi…",
+            "url": "https://hackaday.com/2021/10/22/supply-chain-attack-npm-library-used-by-facebook-and-others-was-compromised/",
+            "urlToImage": "https://hackaday.com/wp-content/uploads/2021/10/ua-parser-compromised-featured.jpg",
+            "publishedAt": "2021-10-23T02:01:14Z",
+            "content": "Here at Hackaday we love the good kinds of hacks, but now and then we need to bring up a less good kind. Today it was learned that the NPM package ua-parser-js was compromised, and any software using… [+2179 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hackaday"
+            },
+            "author": "Al Williams",
+            "title": "BBC micro:bit Reads Morse Code with MakeCode",
+            "description": "We always have mixed feelings about the drag-and-drop programming languages. But we were impressed with [SirDan’s] Morse code decoder built with the graphical MakeCode. Granted, it is reading 5 element …read more",
+            "url": "https://hackaday.com/2021/10/06/bbc-microbit-reads-morse-code-with-makecode/",
+            "urlToImage": "https://hackaday.com/wp-content/uploads/2021/10/cw.png",
+            "publishedAt": "2021-10-07T05:00:39Z",
+            "content": "We always have mixed feelings about the drag-and-drop programming languages. But we were impressed with [SirDan’s] Morse code decoder built with the graphical MakeCode. Granted, it is reading 5 eleme… [+1125 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hackaday"
+            },
+            "author": "Elliot Williams",
+            "title": "Hackers and China",
+            "description": "The open source world and Chinese manufacturing have a long relationship. Some fifteen years ago, the big topic was how companies could open-source their hardware designs and not get driven …read more",
+            "url": "https://hackaday.com/2021/10/09/hackers-and-china/",
+            "urlToImage": "https://hackaday.com/wp-content/uploads/2017/08/luban.jpg",
+            "publishedAt": "2021-10-09T14:00:11Z",
+            "content": "The open source world and Chinese manufacturing have a long relationship. Some fifteen years ago, the big topic was how companies could open-source their hardware designs and not get driven bankrupt … [+1583 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hackaday"
+            },
+            "author": "Elliot Williams",
+            "title": "Meet the Winners of The Hackaday Prize Round Four: Redefine Robots",
+            "description": "The judges’ ballots are in and we’re proud to present the ten winners of the fourth round of the 2021 Hackaday Prize. We love robots, and it’s obvious that you do too!  The number…",
+            "url": "https://hackaday.com/2021/10/07/meet-the-winners-of-the-hackaday-prize-round-four-redefine-robots/",
+            "urlToImage": "https://hackaday.com/wp-content/uploads/2021/08/2021-hackaday-prize-challenge-redefine-robots-featured.png",
+            "publishedAt": "2021-10-07T16:00:32Z",
+            "content": "The judges’ ballots are in and we’re proud to present the ten winners of the fourth round of the 2021 Hackaday Prize. We love robots, and it’s obvious that you do too!  The number and range of projec… [+1976 chars]"
+        }
+    ]
+}
