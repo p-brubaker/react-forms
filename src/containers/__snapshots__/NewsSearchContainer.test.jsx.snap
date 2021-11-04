@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shows news articles should display a list of articles from hackaday.com 1`] = `
+<ul
+  aria-label="articles"
+>
+  <li>
+    <p>
+      Author: 
+      Kristina Panos
+    </p>
+    <p>
+      Title: 
+      Spooky Winners of the Halloween Hackfest Contest
+    </p>
+    <p>
+      Description: 
+      It was a tight race, but the results of the Halloween Hackfest contest are in. We asked you to scare up a terrifying build in one of three categories, and as usual, you didn’t disappoint! The…
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Adam Fabio
+    </p>
+    <p>
+      Title: 
+      Curious Marc Takes on Sewing Machine Repair
+    </p>
+    <p>
+      Description: 
+      Even the most talented engineers can be stymied by simple repair projects. In this case, repairing a broken sewing machine has [CuriousMarc] all tangled up.  [Marc] is probably best known …read more
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Chris Wilkinson
+    </p>
+    <p>
+      Title: 
+      Weird Al’s Monster Battlestation Is Now Just A Reasonably Fast PC
+    </p>
+    <p>
+      Description: 
+      Wanna be hackers? Code crackers? Slackers. If the vintage computing community ever choose an official anthem, count my vote for It’s All About The Pentiums by “Weird Al” Yankovic. More than twenty …
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Ryan Flowers
+    </p>
+    <p>
+      Title: 
+      Mach 20 In A Wind Tunnel: Yes, It’s Rocket Science
+    </p>
+    <p>
+      Description: 
+      Hypersonic speeds are defined by those exceeding Mach 5, and lately there’s been a lot of buzz about unmanned hypersonic vehicles making test flights. Vehicles returning from orbital flight also …read more
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Kristina Panos
+    </p>
+    <p>
+      Title: 
+      Focus Flower Motivates By Squirting Water In Your Face
+    </p>
+    <p>
+      Description: 
+      When you need to get some tasks done and are short on attention, it’s hard to beat a timer. But whenever you do, it feels pretty darn good. The problem is that when you don’t finish in …
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Bryan Cockfield
+    </p>
+    <p>
+      Title: 
+      Vintage Computers With a Real Turbo
+    </p>
+    <p>
+      Description: 
+      In prior centuries, it was common practice to tie the operation of a program to a computer’s clock speed. As computers got faster and faster, the programs tied to that slower clock speed some…
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Bryan Cockfield
+    </p>
+    <p>
+      Title: 
+      More Software-Defined Radio Projects Using DragonOS
+    </p>
+    <p>
+      Description: 
+      DragonOS, a Debian-based Linux distribution specifically packaged for software-defined radio functionality, roared onto the wavelengths during the beginnings of the various pandemic lockdowns last year. Since then [Aaron], the creator …read more
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Lewin Day
+    </p>
+    <p>
+      Title: 
+      Hacking the Mekamon Robot To Add New Capabilities
+    </p>
+    <p>
+      Description: 
+      The Mekamon from Reach Robotics is a neat thing, a robot controlled by a phone app that walks on four legs. [Wes Freeman] decided to hack the platform, giving it a sensor package and enabling some …
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Tom Nardi
+    </p>
+    <p>
+      Title: 
+      Building a Heavy-Duty Log Splitter, One Piece at a Time
+    </p>
+    <p>
+      Description: 
+      With temperatures dropping in the Northern Hemisphere, this is the time of year when many people start processing firewood for the coming winter months. For the city folks, that means chopping a tr…
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Adam Zeloof
+    </p>
+    <p>
+      Title: 
+      Pringles Can Fluidized Bed Powder Coater Paints Parts Inside And Out
+    </p>
+    <p>
+      Description: 
+      Powder coating is a wonderful way to apply a smooth, colored surface to a part, whether for aesthetic reasons or corrosion protection. Traditionally, powder is applied via a air gun that sprays it …
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Michael Shaub
+    </p>
+    <p>
+      Title: 
+      Keep Calm and Hack On: The Philosophy of Calm Technology
+    </p>
+    <p>
+      Description: 
+      So much smart-tech is really kind of dumb. Gadgets intended to simplify our lives turn out to complicate them. It often takes too many “clicks” to accomplish simple tasks, and …read more
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Tom Nardi
+    </p>
+    <p>
+      Title: 
+      Here Are the Ten Finalists For the Hackaday Prize Wildcard Challenge
+    </p>
+    <p>
+      Description: 
+      Each phase of the 2021 Hackaday Prize challenged designers to reimagine traditional solutions within various fields, from robotics to assistive devices. But for the Reactivate Wildcard, the fifth and final …read more
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Dave Rowntree
+    </p>
+    <p>
+      Title: 
+      Simplify 3D Printer Wiring With CAN Bus
+    </p>
+    <p>
+      Description: 
+      [mark] had an interesting idea when looking at all the wiring of a typical 3D printer; Use CAN Bus. There are a lot of wires going to the extruder assembly, and with most designs this thing is flyi…
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Matthew Carlson
+    </p>
+    <p>
+      Title: 
+      Python Ditches the GILs and Comes Ashore
+    </p>
+    <p>
+      Description: 
+      The Python world has been fractured a few times before. The infamous transition from version 2 to version 3 still affects people today, and there could be a new schism in the future. [Sam Gross] pr…
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Ryan Flowers
+    </p>
+    <p>
+      Title: 
+      Autonomous Drone Dodges Obstacles Without GPS
+    </p>
+    <p>
+      Description: 
+      If you’re [Nick Rehm], you want a drone that can plan its own routes even at low altitudes with unplanned obstacles blocking its way. (Video, embedded below.) And or course, you build it from…
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Tom Nardi
+    </p>
+    <p>
+      Title: 
+      Liberating the ESP8266 from its Development Board
+    </p>
+    <p>
+      Description: 
+      While the ESP32 is clearly a superior piece of hardware, we think you’ll agree that the ESP8266 is just too useful not to have a dozen or so kicking around the parts bin at any given time. Ch…
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Robin Kearey
+    </p>
+    <p>
+      Title: 
+      Cute Little iMac Clone Runs MacOS on a Tiny Screen
+    </p>
+    <p>
+      Description: 
+      Building a Hackintosh – a non-Apple computer running MacOS – has been a favorite pastime of hackers ever since Apple made the switch from PowerPC to Intel hardware. Though usually …read more
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Kristina Panos
+    </p>
+    <p>
+      Title: 
+      Malamud’s General Index: Research Gist, No Slap On the Wrist
+    </p>
+    <p>
+      Description: 
+      Tired of that unsettling feeling you get from looking for paywalled papers on that one site that shall not be named? Yeah, us too. But now there’s an alternative that should feel a little les…
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Tom Nardi
+    </p>
+    <p>
+      Title: 
+      Tiny Open Hardware Linux SBC Hides In Plain Sight
+    </p>
+    <p>
+      Description: 
+      There was a time, not quite so long ago, when a computer was a beige box that sat on your desk. Before that, computers were big enough to double as desks, and even farther back, they took up a whol…
+    </p>
+  </li>
+  <li>
+    <p>
+      Author: 
+      Tom Nardi
+    </p>
+    <p>
+      Title: 
+      Computer Vision Lets You Skip Songs with a Glance
+    </p>
+    <p>
+      Description: 
+      Have you ever wished you could control your home automation devices with nothing more than a withering stare? Well then you’re in luck, as [Norbert Zare] has come up with a clever way of cont…
+    </p>
+  </li>
+</ul>
+`;

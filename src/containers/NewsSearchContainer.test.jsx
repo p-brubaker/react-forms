@@ -39,6 +39,14 @@ describe('Shows news articles', () => {
         server.close();
     });
 
+    it('should display a list of articles from hackaday.com', async () => {
+        render(<NewsSearchContainer />);
+        screen.getByText('Loading...');
+
+        const ul = await screen.findByRole('list', { name: 'articles' });
+        expect(ul).toMatchSnapshot();
+    });
+
     it('should display a list of articles mentioning JavaScript', async () => {
         render(<NewsSearchContainer />);
         screen.getByText('Loading...');
