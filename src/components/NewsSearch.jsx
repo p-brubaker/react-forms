@@ -20,9 +20,10 @@ class NewsSearch extends Component {
         this.setState({ query: e.target.value });
     };
 
-    handleSubmit = async () => {
+    handleSubmit = async (e) => {
+        e.preventDefault();
         this.setState({ loading: true });
-        const result = await fetchNewsArticles(this.state.search);
+        const result = await fetchNewsArticles(this.state.query);
         const articles = await result.articles;
         this.setState({ articles, loading: false });
     };

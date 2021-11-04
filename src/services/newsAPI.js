@@ -4,7 +4,7 @@ const domain = 'hackaday.com';
 const URL = `https://newsapi.org/v2/everything?domains=${domain}&apiKey=${key}`;
 
 export async function fetchNewsArticles(query) {
-    const url = query ? `${URL}&q?=${query}` : URL;
+    const url = query ? `${URL}&q=+${query}` : URL;
     const res = await fetch(url);
     const articles = await res.json();
     return articles;
