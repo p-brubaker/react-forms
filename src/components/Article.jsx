@@ -1,9 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Article extends Component {
-    render() {
-        return <h1>Hello from the article component</h1>;
-    }
+export function Article(props) {
+    const { author, title, description } = props.article;
+    return (
+        <li>
+            <p>Author: {author}</p>
+            <p>Title: {title}</p>
+            <p>Description: {description}</p>
+        </li>
+    );
 }
-
-export default Article;

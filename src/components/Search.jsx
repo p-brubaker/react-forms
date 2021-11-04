@@ -1,9 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Search extends Component {
-    render() {
-        return <h1>Hello from the Search component</h1>;
-    }
+export function Search(props) {
+    const { handleSubmit, handleChange, query } = props;
+
+    return (
+        <form onSubmit={handleSubmit}>
+            <label htmlFor="search">Search by topic</label>
+            <input
+                id="search"
+                name="search"
+                value={query}
+                onChange={handleChange}
+            />
+            <button type="submit">Submit</button>
+        </form>
+    );
 }
-
-export default Search;
