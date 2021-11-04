@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { fetchNewsArticles } from '../services/newsAPI';
-import { Search } from './Search';
-import { ArticleList } from './ArticleList';
+import { Search } from '../components/Search';
+import { ArticleList } from '../components/ArticleList';
 
-class NewsSearch extends Component {
+class NewsSearchContainer extends Component {
     state = {
         query: '',
         loading: true,
@@ -47,4 +47,4 @@ class NewsSearch extends Component {
     }
 }
 
-export default NewsSearch;
+export default NewsSearchContainer;
