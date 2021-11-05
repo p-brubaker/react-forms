@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export function Search(props) {
     const { handleSubmit, handleChange, query } = props;
@@ -18,3 +19,9 @@ export function Search(props) {
         </form>
     );
 }
+
+Search.propTypes = {
+    handleSubmit: PropTypes.func.isRequired,
+    handleChange: PropTypes.func.isRequired,
+    query: PropTypes.string,
+};

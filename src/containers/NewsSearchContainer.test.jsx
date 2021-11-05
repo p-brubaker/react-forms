@@ -10,8 +10,8 @@ import NewsSearchContainer from './NewsSearchContainer';
 import { setupServer } from 'msw/node';
 import { rest } from 'msw';
 
-import mockDefaultGetResults from './mockDefaultGetResults.json';
-import mockGetWithQuery from './mockGetWithQuery.json';
+import mockDefaultGetResults from '.mocks/mockDefaultGetResults.json';
+import mockGetWithQuery from './mocks/mockGetWithQuery.json';
 const URL = 'https://newsapi.org/v2/everything';
 
 describe('Shows news articles', () => {
