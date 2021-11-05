@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Article } from './Article';
 
 export function ArticleList({ articles }) {
@@ -10,3 +11,7 @@ export function ArticleList({ articles }) {
         </ul>
     );
 }
+
+ArticleList.propTypes = {
+    articles: PropTypes.array.isRequired,
+};

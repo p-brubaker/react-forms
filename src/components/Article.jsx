@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export function Article(props) {
     const { author, title, description } = props.article;
@@ -10,3 +11,11 @@ export function Article(props) {
         </li>
     );
 }
+
+Article.propTypes = {
+    article: {
+        author: PropTypes.string.isRequired,
+        title: PropTypes.string.isRequired,
+        quote: PropTypes.string.isRequired,
+    },
+};
