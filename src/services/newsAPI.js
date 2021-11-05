@@ -1,5 +1,6 @@
 const key = process.env.REACT_APP_API_KEY;
 const domain = 'hackaday.com';
+import fetch from 'cross-fetch';
 // eslint-disable-next-line max-len
 const URL = `https://newsapi.org/v2/everything?domains=${domain}&apiKey=${key}`;
 
