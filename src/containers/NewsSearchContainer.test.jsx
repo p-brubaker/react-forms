@@ -10,8 +10,8 @@ import NewsSearchContainer from './NewsSearchContainer';
 import { setupServer } from 'msw/node';
 import { rest } from 'msw';
 
-import mockDefaultGetResults from '.mocks/mockDefaultGetResults.json';
-import mockGetWithQuery from './mocks/mockGetWithQuery.json';
+import mockDefaultGetResults from './__mocks__/mockDefaultGetResults.json';
+import mockGetWithQuery from './__mocks__/mockGetWithQuery.json';
 const URL = 'https://newsapi.org/v2/everything';
 
 describe('Shows news articles', () => {
@@ -19,9 +19,8 @@ describe('Shows news articles', () => {
         rest.get(URL, (req, res, ctx) => {
             const query = req.url.searchParams;
             const q = query.get('q');
-            const domains = query.get('domains');
 
-            if (q === ' JavaScript' && domains === 'hackaday.com') {
+            if (q === ' JavaScript') {
                 return res(ctx.status(200), ctx.json(mockGetWithQuery));
             } else {
                 return res(ctx.status(200), ctx.json(mockDefaultGetResults));
