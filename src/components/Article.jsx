@@ -13,9 +13,5 @@ export function Article(props) {
 }
 
 Article.propTypes = {
-    article: {
-        author: PropTypes.string.isRequired,
-        title: PropTypes.string.isRequired,
-        quote: PropTypes.string.isRequired,
-    },
+    article: PropTypes.objectOf(String, String, String),
 };
